@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80009688"
+    android:padding="16dp"
+    tools:context=".QueryActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户信息表"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="用户ID: "
+        android:layout_below="@id/title"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        />
+
+    <TextView
+        android:id="@+id/uphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="用户手机号: "
+        android:layout_below="@id/uid"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        />
+
+    <TextView
+        android:id="@+id/upwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="用户密码: "
+        android:layout_below="@id/uphone"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        />
+
+    <TextView
+        android:id="@+id/unum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="用户号码: "
+        android:layout_below="@id/upwd"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        />
+
+    <TextView
+        android:id="@+id/ulv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="用户等级: "
+        android:layout_below="@id/unum"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        />
+    
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="返回"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="500dp"
+        android:layout_alignParentStart="true"/>
+    
+
+</RelativeLayout>

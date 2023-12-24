@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#009688"
+    tools:context=".CaptureAct">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#03A9F4"
+        android:text="预约排队系统"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="用户界面"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="预约排队"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:layout_marginBottom="20sp"
+        />
+
+    <Button
+        android:id="@+id/btn_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="查看号码"
+        android:layout_below="@id/btn_apply"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        />
+
+    <Button
+        android:id="@+id/btn_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="扫码签到"
+        android:layout_below="@id/btn_num"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="退出登录"
+        android:layout_below="@id/btn_sign"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        />
+
+</RelativeLayout>
